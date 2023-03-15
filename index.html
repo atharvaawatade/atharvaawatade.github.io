@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/13efbb5995.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+
+        <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li> <a href="#header" style="--i:1">Home</a></li>
+                <li> <a href="#about" style="--i:2">About</a></li>
+                <li> <a href="#certificates" style="--i:3">Certifications</a></li>
+                <li> <a href="#portfolio" style="--i:4">Portfolio</a></li>
+                <li> <a href="#contact" style="--i:5">contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Computer Science Student</p>
+            <h1>Hi, I am <span class="multiple-text"></span><br>From India.</h1>
+        </div>
+    </div>
+    
+</div>   
+<!-- ------------------about---------------  -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/bg3.png.jpeg">
+
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                I am second year Computer Science student at VIT Bhopal UNIVERSITY. I am UI/UX designer and I have completed my one month internship in UI/UX domain. <br>
+                Curretly I am exploring flutter domain.⚡
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Exeprience')">Exeprience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Design🎨</span><br>UI/UX <br> Canva <br> Design Thinking</li>
+                        <li><span>Web Development⚙️</span><br>HTML <br> CSS <br> Java Script</li>
+                        <li><span>App Dvelopemet⚙️</span><br>Flutter</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Exeprience">
+                    <ul>
+                        <li><span>UI/UX Intern</span><br>Completed my one month internship in UI/UX with provoke developers. <a href="https://drive.google.com/file/d/1qkedV3l1wHyoDrb9bwOMWnAMf75gHI2s/view?usp=sharing">(LOR)</a></li>
+                        <li><span>Design Team Lead</span> <br> I am design team lead at GFG VITB chapter. I worked on social media posts, Email templates, Creating new idea for design and many more tasks related to design.</li>
+                        <li><span>UI Designer</span><br>I worked as UI designer in Devs Dungeon Community.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Undergraduation</span><br>VIT BHOPAL UNIVERSITY, Batch of 2025</li>
+                        <li><span>11th-12th</span><br>JK COLLEGE PUNE</li>
+                        <li><span>10th</span><br>S.M.V. AKLUJ</li>
+                    </ul>
+                </div>
+
+
+            </div>
+    </div>
+</div>
+</div>
+
+<!-- ------------------------------services---------------------------------- -->
+
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="certificates-list">
+
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h2>UI/UX</h2>
+                <p>completed a 6 weeks online certified training on UI/UX Design. The training consisted of Design Basics, Design with Figma, Creating Design System, Web Design.</p>
+                <a href="https://trainings.internshala.com/verify-certificate/?certificate_number=88AAD7D9-B114-5522-512E-A17F0FCECD5D">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-google"></i>
+                <h2>Bit and Bytes of Computer Networking</h2>
+                <p>I have completed this online non credit course authorized by google and offered through coursera. In this I learned about Computer Networking, Five Layers of Network Model, Network Services, Connecting to the Internet, Troubleshooting and the future networking. </p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/L72YPQPHZ6XG">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Programming Course</h2>
+                <p>Completes my python programming courses with technophilia Summer Training.</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ------------------portfolio--------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/w1.png" alt="">
+                <div class="layer">
+                    <h3>Provoke UI/UX Internship</h3>
+                    <p>Worked on creating UI design of ED-Tech platform also created prototyping for final review of the website.</p>
+                    <a href="https://drive.google.com/file/d/1qkedV3l1wHyoDrb9bwOMWnAMf75gHI2s/view?usp=sharing"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/w2.png " alt="">
+                <div class="layer">
+                    <h3>WEB UI Design</h3>
+                    <p>Worked on UI design of Insight club of VITB University. In this I have created prototyping and homepage</p>
+                    <a href="https://www.figma.com/file/C3lMtCPhm2uXzTLGldbedB/Insights?node-id=0%3A1&t=tK7Y8eFVA19imDA7-1"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/w3.png " alt="">
+                <div class="layer">
+                    <h3>Finance App UI</h3>
+                    <p>This is an assingment assigneb by internshla while completing my UI/UX trainin, I have created signin-signup page, My profile page, Daily expenses page, Money transfer page</p>
+                    <a href="https://www.figma.com/file/O6qvUliuQOcrkSKo0d43Nh/finance?node-id=0%3A1&t=gf9beKEL7Al7ilcd-1"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="https://www.linkedin.com/in/atharvaawatade" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- -------------------------------contact------------------------------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title1">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i><a href = "mailto: atharvaawatade.official">atharvaawatade.official@gmail.com</a></p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/atharvaawatade19"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/atharvaawatade"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/atharvaawatade"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://github.com/atharvaawatade"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Atharva_Awatade_Resume.pdf" dropzone class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Atharva Awatade made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+
+ }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz9ztQSC2L8HM4WrDC4Y_ZmokBj2w0tGsgsHYavqAjLFLDhdREJNT65L7iZFP26j4in/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Messege Sent"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
